@@ -1,0 +1,41 @@
+.no_image_user,
+.no_image_user:hover,
+.user_rows .user_rows_image img,
+._image__50_square,
+._image_50,
+._image_32,
+._image_32_square {
+  overflow: hidden;
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: inset 10px 10px 51px -2px rgba(0, 0, 0, 0.4);
+}
+.user_rows_mini .user_rows,
+.user_rows {
+  background: transparent !important;
+  border-color: transparent !important;
+}
+.user_rows .user_profile_link_span > a,
+.user_rows .user_profile_link_span > a:hover,
+.user_rows_mini .user_rows .user_profile_link_span > a,
+.user_rows_mini .user_rows .user_profile_link_span > a:hover {
+  background: transparent !important;
+}
+._size__120,
+._size__120:hover {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+.pf_featured_users ._size__120,
+.pf_featured_users ._size__120:hover {
+  width: 90px;
+  height: 90px;
+}
+#js_block_border_friend_profile_small .no_image_user._size__120 {
+  width: 70px;
+  height: 70px;
+}
+.profile_image {
+  border-radius: 50%;
+}
